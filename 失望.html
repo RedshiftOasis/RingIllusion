@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>锁定文件夹访问</title>
+    <script>
+        const allowedPath = "file:///D:\文件\文档\网页工程\個性網頁（待完善）\失望"; // 只允许访问这个路径
+        
+        // 检查当前 URL 是否匹配允许的路径
+        function checkPath() {
+            if (!window.location.href.startsWith(allowedPath)) {
+                alert("禁止访问父目录！");
+                window.location.href = allowedPath; // 强制跳回指定目录
+            }
+        }
+        
+        // 每秒检查一次（防止用户手动修改地址栏）
+        setInterval(checkPath, 1000);
+        
+        // 初始检查
+        window.onload = checkPath;
+    </script>
+</head>
+<body>
+    <h1>您只能访问此文件夹：</h1>
+    <a href="失望">打开文件夹</a>
+</body>
+</html>
