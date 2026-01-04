@@ -1,2 +1,1 @@
-# redshiftoasis.github.io
-🌌 幻想空间 （Hvored） - 小中·TT的数字宇宙 这是我从零开始构建的个人网站，一个存放奇思妙想和技术实验的地方。从第一个CSS样式到未来的交互作品，这里将见证我的每一次进步。✨
+1、在“ZChat”内新增了“Small Middle Tt”的信息框，为未来做Blog做准备。✨
