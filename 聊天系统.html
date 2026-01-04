@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" conten="" t="width=device-width, initial-scale=1.0">
+    <title>ZChat</title>
+	<link rel="stylesheet" href="配置/CSS/style.css">
+	<style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        .gradient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1; /* 设置背景层级低于内容 */
+            background: linear-gradient(to right, #c8c8c8,#e2b4fd,#98aeff,#00ffff);
+            background-size: 1000% 1000%;
+            animation: gradientBG 5s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .content {
+            position: relative;
+            z-index: 1; /* 设置内容层级高于背景 */
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+	<style>
+		img{
+			width: 80px;
+			height: 80px;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="gradient"></div>
+    <div class="content">
+    <div class="container">
+        <div class="inner-container">
+			<div class="park-sec park-sec0 active">
+				<div class="park-inside">
+					<!--<img src="" alt="">-->
+					<div class="content-sec">
+					<h2>Section</h2>
+						<span>[链接]Section发了一个網站</span>
+					</div>
+				</div>
+				<span class="date">now</span>
+			</div>
+            <div class="park-sec park-sec1 active">
+                <div class="park-inside">
+                    <img src="img/R.jpg" alt="">
+                    <div class="content-sec">
+                        <h2>Ruoxue</h2>
+                        <span>In a lovely night,I love catch to stars.</span>
+                    </div>
+                </div>
+                <span class="date">1mins</span>
+            </div>
+            <div class="park-sec park-sec2 active">
+                <div class="park-inside">
+                    <div class="content-sec">
+                        <h2>zNews</h2>
+                        <span>Let us work together to maintain......</span>
+                    </div>
+                </div>
+                <span class="date">3hours</span>
+            </div>
+            <div class="park-sec park-sec3 active">
+                <div class="park-inside">
+                    <img src="img/W.png" alt="">
+                    <div class="content-sec">
+                        <h2>Hvored</h2>
+                        <span>又差一点！</span>
+                    </div>
+                </div>
+                <span class="date">4hours</span>
+			</div>
+        </div>
+    </div>
+		<a href="图书.html"><img src="img/图书.png"></a>
+
+</body></html>

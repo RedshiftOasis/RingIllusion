@@ -1,0 +1,24 @@
+ .variation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right,#33fffe,#e0b4fd,#b299ff,#00e5ff);
+	        z-index: -1; /* 设置背景层级低于内容 */
+            background-size: 1000% 1000%;
+            animation: gradientBG 5s ease infinite;
+        }
+
+        @keyframes gradientBG {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
