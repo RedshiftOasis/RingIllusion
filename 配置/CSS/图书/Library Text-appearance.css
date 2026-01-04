@@ -1,0 +1,7 @@
+.appearance {
+  position: fixed;
+  right: 50px;
+  bottom: 30px;
+  text-decoration: none;
+  pointer-events: none;
+  color: rgba(255, 255, 255, 0.2);
