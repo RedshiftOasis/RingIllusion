@@ -5,3 +5,4 @@
 3、似乎更简洁了？  
 
 GAMESTART小游戏内容为“Chinese-Chess”（中国棋）、“Barrage-Arrow”（弹幕箭）、“Retro-Snakes”（贪吃蛇）、“Glass-Beads”（玻璃珠），欢迎尝试✨  
+![image](https://github.com/RedshiftOasis/RingIllusion/blob/V9/GAMESTART/%E5%B0%81%E9%9D%A2.png)
