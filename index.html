@@ -1,28 +1,40 @@
 <!doctype html>
-<html>
 <head>
-	<title>Hvored環想空間</title>
+	<title>Redshift⚪asis的環想空間</title>
 	<meta charset="utf-8">
-<!--网页主题下方的描述说明内容-->
-	<meta name="description" content="這是我和小環共同製作的動態個性網頁，目前還處於開發階段...">
-<!--搜索关键字-->
-	<meta name="keywords" content="幻想空間，Hvored"> 
-	<meta name="author" content="小中·TT"
-<!--引入css文件-->
-	<link rel="stylesheet"
-		  href="p標簽黑色.css">
-<!--浏览器标签栏图标-->
+	
+	<meta name="description" content="你好...很高兴认识你！">
+	
+	<meta name="keywords" content="幻想空間">
+	<meta name="author" content="我的"
+	
 	<link rel="icon" href="Huan.ico" type="image/x-icon">
-	<style>
-		body
-		{
-			font-family: arial,sans-serif;
-			background-color: #000000; /*纯色背景*/
-                       background:linear-gradient(to right,#0000ff,#ff00ff); /*渐变背景*/
-		}
-	</style>
-	</head>
-	<body>
-	<p> 这是一段文字，正在测试文字与背景的契合度</p>
-	</body>
-</html>	
+	
+	<!--CSS-->
+	<link rel="stylesheet" href="settings/CSS/Ring/Variation.css">
+	<link rel="stylesheet" href="settings/CSS/Ring/Text-Button.css">
+	<link rel="stylesheet" href="settings/CSS/Ring/Center-Buttons.css">
+</head>
+
+<body>
+	<div class="gradient-bg" id="gradientBg"></div>
+	
+	<div class="ring-container" id="ringContainer">
+		<canvas id="gradientCanvas"></canvas>
+	</div>
+		
+	<div class="white-center" id="whiteCenter">
+		
+		<!--按钮-->
+	    <div class="center-buttons">
+	        <button class="center-btn" onclick="navigateTo('GAMESTART/BSJQ.html')">GAMESTART</button>
+	        <button class="center-btn" onclick="navigateTo('story.html')">尚未布置</button>
+	        <button class="center-btn" onclick="navigateTo('blog.html')">尚未布置</button>
+	    </div>
+	</div>
+	
+	<!--JS-->
+	<script type="text/javascript" src="settings/JS/Ring/VARIATION.js"></script>
+	
+</body>
+</html>
