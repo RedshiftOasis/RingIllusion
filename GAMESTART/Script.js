@@ -15,8 +15,8 @@ const characters = [
     {
         id: 'J',
         name: '箭',
-        title: '箭术大师',
-        description: '这里是箭术大师的描述内容...',
+        title: '关于',
+        description: '描述内容...',
         image: 'Show/Xiaojing/箭.png',
         icon: 'Show/Xiaojing/j.ico',
         page: 'JFILES/Jian.html'
@@ -24,8 +24,8 @@ const characters = [
     {
         id: 'S',
         name: '绳',
-        title: '绳索专家',
-        description: '这里是绳索专家的描述内容...',
+        title: '关于',
+        description: '描述内容...',
         image: 'Show/Qiming/棋敏.png',
         icon: 'Show/Small Middle·TT/s.ico',
         page: 'SFILES/Sheng.html'
@@ -33,8 +33,8 @@ const characters = [
     {
         id: 'Z',
         name: '珠',
-        title: '珠宝匠人',
-        description: '这里是珠宝匠人的描述内容...',
+        title: '关于',
+        description: '描述内容...',
         image: 'Show/Qiming/棋敏.png',
         icon: 'Show/Hwoad/blz.ico',
         page: 'BLZFILES/BoLiZhu.html'
